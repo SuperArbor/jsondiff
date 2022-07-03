@@ -3,8 +3,8 @@ __version__ = '2.0.0'
 import sys
 import json
 
-from symbols import *
-from symbols import Symbol
+from .symbols import *
+from .symbols import Symbol
 
 # rules
 # - keys and strings which start with $ (or specified escape_str) are escaped to $$ (or escape_str * 2)
